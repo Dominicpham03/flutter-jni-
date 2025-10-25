@@ -34,7 +34,7 @@ class _Iperf3TestPageState extends State<Iperf3TestPage> {
   final _iperf3Service = Iperf3Service();
 
   // Form controllers
-  final _serverHostController = TextEditingController();
+  final _serverHostController = TextEditingController(text: 'iperf.he.net');
   final _portController = TextEditingController(text: '5201');
   final _durationController = TextEditingController(text: '10');
   final _streamsController = TextEditingController(text: '1');
